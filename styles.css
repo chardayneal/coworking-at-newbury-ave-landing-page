@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;700&display=swap');
+
+body{
+    font-family: "Roboto Condensed";
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#logo img {
+    width: 150px;
+    z-index: 2;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hero {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-img {
+    width: auto;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 65% 90%, 0 80%);
+    z-index: 1;
+}
+
+#our-space {
+    display: flex;
+    height: 300px;
+}
+
+.images {
+    display: flex;
+}
+
+#amenities {
+    display: flex;
+    height: 300px;
+}
+
+#pricing {
+    display: flex;
+    height: 200px;
+}
+
+#closing {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#social-links {
+    display: flex;
+}
+
+#small-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+
+
+
