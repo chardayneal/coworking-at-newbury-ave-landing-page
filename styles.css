@@ -8,23 +8,31 @@ body{
 }
 
 header {
-    height: 100px;
+    height: 110px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    gap: 25px;
+    margin: 10px 100px 0 100px;
 }
 
 #logo {
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    flex: 0 0 150px;  
+    margin-top: 45px;
 }
 
 #logo img {
-    width: 150px;
+    width: 135px;
     z-index: 2;
+}
 
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
 }
 
 ul {
@@ -44,19 +52,72 @@ a {
     width: 100%;
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    gap: 20px;
+    background-color: #f1f1f1;
 }
 
 #header-img {
-    width: auto;
-    height: 100%;
+    width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 65% 90%, 0 80%);
     z-index: 1;
 }
 
+#hero-header, #hero-text {
+    width: 800px;
+    margin: auto;
+}
+
+
+#hero-header {
+    color: #32435f;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#hero-text {
+    color: #5a5a5a;
+    font-size: 42px;
+    font-weight: 300;
+    padding-bottom: 90px;
+}
+
+.section {
+    padding-top: 75px;
+    display: flex;
+}
+
 #our-space {
     display: flex;
-    height: 300px;
+}
+
+.section-header {
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border: 2px solid black;
+    
+}
+
+.header-style {
+    padding: 10px;
+    height: 50px;
+    font-size: 38px;
+    font-weight: 800;
+    border-bottom: 5px solid #A7927D;
+    flex: none;
+}
+
+.section-content {
+    width: 600px;
+    padding: 0 50px 10px 50px;
+}
+
+.list-item, p {
+    font-size: 20px;
 }
 
 .images {
@@ -65,12 +126,10 @@ a {
 
 #amenities {
     display: flex;
-    height: 300px;
 }
 
 #pricing {
     display: flex;
-    height: 200px;
 }
 
 #closing {
@@ -96,4 +155,18 @@ footer {
 
 
 
+/* 
+
+Colors:
+
+Light gray background: #f1f1f1
+Brown accent color: #A7927D
+Blue: #32435F
+Text color: #5a5a5a 
+
+Font:
+
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
 
